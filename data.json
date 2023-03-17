@@ -1,0 +1,61 @@
+{
+	"intents": 
+	[
+				{
+			"tag": "greeting",
+			"patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+			"responses": ["Hello, how can I help?", "Good to see you again", "Hi there, how can I help?"]
+        		},
+        		{
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "No, that's it"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+                },
+                {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+                },
+                {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+                },
+                {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can help you with your order status, delivery, and refund. ", "I can check your order status, and cancel your order."]
+                },
+                {
+            "tag": "Food Auction",
+            "patterns": ["How To Participate in the Food Auction?"],
+            "responses": ["Welcome To the Most Thrilling food bidding experience only at Hungry Top. Hungry Top is the World's First Food Auction Platform. To participate at the food auction, please Subscribe from the Profile Section of the Hungry Top App. Choose the Subscription Plan that suits you the best."]
+            },
+                {
+            "tag": "cancel-order-request",
+            "patterns": ["Hi, I want to cancel my order.", "I want to cancel my order", "Please cancel my order", "Cancel my order"],
+            "responses": ["I can cancel your order, If your order is in kitchen, there will be a cancellation fee.  Do you want me to proceed?", "I can cancel your order, there can be a cancellation fee depending on your order status. I need your final confirmation to confirm your order."]
+            },
+                {
+            "tag": "Engagement At The Food Auction",
+            "patterns": ["Way Of Engagement At The Food Auction?"],
+            "responses": ["After you have taken subscription plan follow the steps below. Click on the Auction icon. Participate for your favorite food/restaurant available. Bid the amount you want to enter. And Win your food being the Top Bidder. Once you win an auction in a day, you cannot participate on the same day again at the auction again.."]
+                },
+        
+                {
+            "tag": "the rules and norms of the Food Auction",
+            "patterns": ["What are the rules and norms of the Food Auction?"],
+            "responses": ["Once you win the auction either you order or not you won’t get a chance to play again at the auction on the same day Winners will get the food added to their cart respective cart section where they can place the order at their own bid price. All participants except the winners will get a special discount coupon through notifications after the auction is over, where they can avail a deep discount on the same food item that they bid for and enjoy their food. Kind attention to all auction winners: the auction items(food) is a promotional item from restaurant side. We request you all to order it within the stipulated time given. We have introduced the timer for that reason only. For all takeaway orders, please try to collect it within an hour of placing the order. Otherwise, it is at the discretion of the merchant to reject/accept latecomers. Auction orders are non-refundable once customer placed their order."]
+            },
+                {
+            "tag": "What are taxes and charges applicable on food orders?",
+            "patterns": ["taxes and charges applicable on food orders"],
+            "responses": ["GST will be applicable across all food orders placed at Hungry Top Platform as per Government norms . Delivery Charges, Packaging Charges are applicable as per restaurant discretion."]
+                },
+                {
+            "tag": "Contact Us",
+            "patterns": ["Contact Us"],
+            "responses": ["Write us on this Email: support@hungrytop.in, OR, Call this number 6289096774"]
+                }
+        ]
+}
